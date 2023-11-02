@@ -14,8 +14,8 @@ export default async function Henry() {
   return (
     <main>
       <h1>This is {data.name}</h1>
-      <p>His favorite color is : {data.favouriteColor}</p>
-      <p>He is {data.age} years old</p>
+      <p>His favorite color is : {data.favouriteColor}.</p>
+      <p>He is only {data.age} years old.</p>
       {/* <img src={data.image} alt="picture of henry here"></img> */}
     </main>
   );
